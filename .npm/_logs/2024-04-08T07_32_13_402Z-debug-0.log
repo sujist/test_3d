@@ -1,0 +1,384 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.6.7
+2 info using node@v18.17.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:C:\Users\Sujana\.npmrc Completed in 2ms
+11 timing config:load:user Completed in 2ms
+12 timing config:load:file:C:\Users\Sujana\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 13ms
+16 timing npm:load:configload Completed in 13ms
+17 timing npm:load:mkdirpcache Completed in 1ms
+18 timing npm:load:mkdirplogs Completed in 0ms
+19 verbose title npm install
+20 verbose argv "install"
+21 timing npm:load:setTitle Completed in 1ms
+22 timing config:load:flatten Completed in 3ms
+23 timing npm:load:display Completed in 3ms
+24 verbose logfile logs-max:10 dir:C:\Users\Sujana\OneDrive\Desktop\3d\.npm\_logs\2024-04-08T07_32_13_402Z-
+25 verbose logfile C:\Users\Sujana\OneDrive\Desktop\3d\.npm\_logs\2024-04-08T07_32_13_402Z-debug-0.log
+26 timing npm:load:logFile Completed in 10ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 30ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile done cleaning log files
+32 timing idealTree:init Completed in 57ms
+33 timing idealTree:userRequests Completed in 0ms
+34 silly idealTree buildDeps
+35 timing idealTree:#root Completed in 0ms
+36 timing idealTree:buildDeps Completed in 1ms
+37 timing idealTree:fixDepFlags Completed in 1ms
+38 timing idealTree Completed in 61ms
+39 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+40 timing reify:loadTrees Completed in 108ms
+41 timing reify:diffTrees Completed in 7ms
+42 silly reify moves {}
+43 timing reify:retireShallow Completed in 2ms
+44 timing reify:createSparse Completed in 9ms
+45 timing reify:loadBundles Completed in 0ms
+46 silly audit bulk request {
+46 silly audit   '@esbuild/aix-ppc64': [ '0.20.2' ],
+46 silly audit   '@esbuild/android-arm': [ '0.20.2' ],
+46 silly audit   '@esbuild/android-arm64': [ '0.20.2' ],
+46 silly audit   '@esbuild/android-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/darwin-arm64': [ '0.20.2' ],
+46 silly audit   '@esbuild/darwin-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/freebsd-arm64': [ '0.20.2' ],
+46 silly audit   '@esbuild/freebsd-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-arm': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-arm64': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-ia32': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-loong64': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-mips64el': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-ppc64': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-riscv64': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-s390x': [ '0.20.2' ],
+46 silly audit   '@esbuild/linux-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/netbsd-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/openbsd-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/sunos-x64': [ '0.20.2' ],
+46 silly audit   '@esbuild/win32-arm64': [ '0.20.2' ],
+46 silly audit   '@esbuild/win32-ia32': [ '0.20.2' ],
+46 silly audit   '@esbuild/win32-x64': [ '0.20.2' ],
+46 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-android-arm64': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-darwin-arm64': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-darwin-x64': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.14.1' ],
+46 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.14.1' ],
+46 silly audit   '@types/estree': [ '1.0.5' ],
+46 silly audit   accepts: [ '1.3.8' ],
+46 silly audit   'append-field': [ '1.0.0' ],
+46 silly audit   'array-flatten': [ '1.1.1' ],
+46 silly audit   'body-parser': [ '1.20.1' ],
+46 silly audit   'bootstrap-icons': [ '1.11.2' ],
+46 silly audit   'buffer-from': [ '1.1.2' ],
+46 silly audit   busboy: [ '1.6.0' ],
+46 silly audit   bytes: [ '3.1.2' ],
+46 silly audit   'call-bind': [ '1.0.5' ],
+46 silly audit   'concat-stream': [ '1.6.2' ],
+46 silly audit   'content-disposition': [ '0.5.4' ],
+46 silly audit   'safe-buffer': [ '5.2.1', '5.1.2' ],
+46 silly audit   'content-type': [ '1.0.5' ],
+46 silly audit   cookie: [ '0.5.0' ],
+46 silly audit   'cookie-signature': [ '1.0.6' ],
+46 silly audit   'core-util-is': [ '1.0.3' ],
+46 silly audit   debug: [ '2.6.9' ],
+46 silly audit   'define-data-property': [ '1.1.1' ],
+46 silly audit   depd: [ '2.0.0' ],
+46 silly audit   destroy: [ '1.2.0' ],
+46 silly audit   'ee-first': [ '1.1.1' ],
+46 silly audit   encodeurl: [ '1.0.2' ],
+46 silly audit   esbuild: [ '0.20.2' ],
+46 silly audit   'escape-html': [ '1.0.3' ],
+46 silly audit   etag: [ '1.8.1' ],
+46 silly audit   express: [ '4.18.2' ],
+46 silly audit   finalhandler: [ '1.2.0' ],
+46 silly audit   forwarded: [ '0.2.0' ],
+46 silly audit   fresh: [ '0.5.2' ],
+46 silly audit   fsevents: [ '2.3.3' ],
+46 silly audit   'function-bind': [ '1.1.2' ],
+46 silly audit   'get-intrinsic': [ '1.2.2' ],
+46 silly audit   gopd: [ '1.0.1' ],
+46 silly audit   'has-property-descriptors': [ '1.0.1' ],
+46 silly audit   'has-proto': [ '1.0.1' ],
+46 silly audit   'has-symbols': [ '1.0.3' ],
+46 silly audit   hasown: [ '2.0.0' ],
+46 silly audit   'http-errors': [ '2.0.0' ],
+46 silly audit   'iconv-lite': [ '0.4.24' ],
+46 silly audit   inherits: [ '2.0.4' ],
+46 silly audit   'ipaddr.js': [ '1.9.1' ],
+46 silly audit   isarray: [ '1.0.0' ],
+46 silly audit   'media-typer': [ '0.3.0' ],
+46 silly audit   'merge-descriptors': [ '1.0.1' ],
+46 silly audit   methods: [ '1.1.2' ],
+46 silly audit   mime: [ '1.6.0' ],
+46 silly audit   'mime-db': [ '1.52.0' ],
+46 silly audit   'mime-types': [ '2.1.35' ],
+46 silly audit   minimist: [ '1.2.8' ],
+46 silly audit   mkdirp: [ '0.5.6' ],
+46 silly audit   ms: [ '2.0.0', '2.1.3' ],
+46 silly audit   multer: [ '1.4.5-lts.1' ],
+46 silly audit   nanoid: [ '3.3.7' ],
+46 silly audit   negotiator: [ '0.6.3' ],
+46 silly audit   'object-assign': [ '4.1.1' ],
+46 silly audit   'object-inspect': [ '1.13.1' ],
+46 silly audit   'on-finished': [ '2.4.1' ],
+46 silly audit   parseurl: [ '1.3.3' ],
+46 silly audit   'path-to-regexp': [ '0.1.7' ],
+46 silly audit   picocolors: [ '1.0.0' ],
+46 silly audit   postcss: [ '8.4.38' ],
+46 silly audit   'process-nextick-args': [ '2.0.1' ],
+46 silly audit   'proxy-addr': [ '2.0.7' ],
+46 silly audit   qs: [ '6.11.0' ],
+46 silly audit   'range-parser': [ '1.2.1' ],
+46 silly audit   'raw-body': [ '2.5.1' ],
+46 silly audit   'readable-stream': [ '2.3.8' ],
+46 silly audit   rollup: [ '4.14.1' ],
+46 silly audit   'safer-buffer': [ '2.1.2' ],
+46 silly audit   send: [ '0.18.0' ],
+46 silly audit   'serve-static': [ '1.15.0' ],
+46 silly audit   'set-function-length': [ '1.1.1' ],
+46 silly audit   setprototypeof: [ '1.2.0' ],
+46 silly audit   'side-channel': [ '1.0.4' ],
+46 silly audit   'source-map-js': [ '1.2.0' ],
+46 silly audit   statuses: [ '2.0.1' ],
+46 silly audit   streamsearch: [ '1.1.0' ],
+46 silly audit   string_decoder: [ '1.1.1' ],
+46 silly audit   three: [ '0.163.0' ],
+46 silly audit   toidentifier: [ '1.0.1' ],
+46 silly audit   'type-is': [ '1.6.18' ],
+46 silly audit   typedarray: [ '0.0.6' ],
+46 silly audit   typescript: [ '5.1.6' ],
+46 silly audit   unpipe: [ '1.0.0' ],
+46 silly audit   'util-deprecate': [ '1.0.2' ],
+46 silly audit   'utils-merge': [ '1.0.1' ],
+46 silly audit   vary: [ '1.1.2' ],
+46 silly audit   vite: [ '5.2.8' ],
+46 silly audit   xtend: [ '4.0.2' ]
+46 silly audit }
+47 verbose reify failed optional dependency C:\Users\Sujana\node_modules\fsevents
+48 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\fsevents' ]
+49 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-win32-ia32-msvc
+50 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-win32-ia32-msvc' ]
+51 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-win32-arm64-msvc
+52 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-win32-arm64-msvc' ]
+53 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-x64-musl
+54 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-x64-musl' ]
+55 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-x64-gnu
+56 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-x64-gnu' ]
+57 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-s390x-gnu
+58 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-s390x-gnu' ]
+59 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-riscv64-gnu
+60 silly reify mark deleted [
+60 silly reify   'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+60 silly reify ]
+61 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-powerpc64le-gnu
+62 silly reify mark deleted [
+62 silly reify   'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-powerpc64le-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-arm64-musl
+64 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-arm64-musl' ]
+65 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-arm64-gnu
+66 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-arm64-gnu' ]
+67 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-linux-arm-gnueabihf
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-darwin-x64
+70 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-darwin-x64' ]
+71 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-darwin-arm64
+72 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+73 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-android-arm64
+74 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-android-arm64' ]
+75 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@rollup\rollup-android-arm-eabi
+76 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@rollup\\rollup-android-arm-eabi' ]
+77 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\win32-ia32
+78 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\win32-ia32' ]
+79 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\win32-arm64
+80 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\win32-arm64' ]
+81 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\sunos-x64
+82 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\sunos-x64' ]
+83 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\openbsd-x64
+84 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\openbsd-x64' ]
+85 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\netbsd-x64
+86 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\netbsd-x64' ]
+87 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-x64
+88 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-x64' ]
+89 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-s390x
+90 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-s390x' ]
+91 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-riscv64
+92 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-riscv64' ]
+93 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-ppc64
+94 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-ppc64' ]
+95 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-mips64el
+96 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-mips64el' ]
+97 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-loong64
+98 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-loong64' ]
+99 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-ia32
+100 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-ia32' ]
+101 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-arm64
+102 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-arm64' ]
+103 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\linux-arm
+104 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\linux-arm' ]
+105 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\freebsd-x64
+106 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\freebsd-x64' ]
+107 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\freebsd-arm64
+108 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\freebsd-arm64' ]
+109 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\darwin-x64
+110 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\darwin-x64' ]
+111 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\darwin-arm64
+112 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\darwin-arm64' ]
+113 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\android-x64
+114 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\android-x64' ]
+115 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\android-arm64
+116 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\android-arm64' ]
+117 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\android-arm
+118 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\android-arm' ]
+119 verbose reify failed optional dependency C:\Users\Sujana\node_modules\@esbuild\aix-ppc64
+120 silly reify mark deleted [ 'C:\\Users\\Sujana\\node_modules\\@esbuild\\aix-ppc64' ]
+121 timing reifyNode:node_modules/fsevents Completed in 16ms
+122 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 16ms
+123 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 16ms
+124 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 16ms
+125 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 16ms
+126 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 16ms
+127 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 16ms
+128 timing reifyNode:node_modules/@rollup/rollup-linux-powerpc64le-gnu Completed in 16ms
+129 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 16ms
+130 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 16ms
+131 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 16ms
+132 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 15ms
+133 timing reifyNode:node_modules/@rollup/rollup-darwin-arm64 Completed in 15ms
+134 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 15ms
+135 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 15ms
+136 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 15ms
+137 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 15ms
+138 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 15ms
+139 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 15ms
+140 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 15ms
+141 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 15ms
+142 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 15ms
+143 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 15ms
+144 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 15ms
+145 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 15ms
+146 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 15ms
+147 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 15ms
+148 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 15ms
+149 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 15ms
+150 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 15ms
+151 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 15ms
+152 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 16ms
+153 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 16ms
+154 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 16ms
+155 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 16ms
+156 timing reifyNode:node_modules/@esbuild/android-arm Completed in 14ms
+157 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 14ms
+158 timing reify:unpack Completed in 17ms
+159 timing reify:unretire Completed in 0ms
+160 timing build:queue Completed in 3ms
+161 timing build:deps Completed in 4ms
+162 timing build Completed in 4ms
+163 timing reify:build Completed in 4ms
+164 timing reify:trash Completed in 5ms
+165 timing reify:save Completed in 26ms
+166 notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+167 http fetch POST 426 http://registry.npmjs.org/-/npm/v1/security/advisories/bulk 604ms
+168 silly audit bulk request failed Beginning October 4, 2021, all connections to npm websites and the npm registry - including for package installation - must use HTTPS and TLS 1.2 or higher.
+168 silly audit
+168 silly audit For more information see this blog post: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+169 notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+170 http fetch POST 426 http://registry.npmjs.org/-/npm/v1/security/audits/quick 208ms
+171 verbose audit error HttpErrorGeneral: 426 Upgrade Required - POST http://registry.npmjs.org/-/npm/v1/security/audits/quick
+171 verbose audit error     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+171 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+171 verbose audit error     at async [getReport] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:335:21)
+171 verbose audit error     at async AuditReport.run (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19)
+171 verbose audit error     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:179:24)
+171 verbose audit error     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:147:5)
+171 verbose audit error     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli.js:89:5) {
+171 verbose audit error   headers: [Object: null prototype] {
+171 verbose audit error     date: [ 'Mon, 08 Apr 2024 07:32:14 GMT' ],
+171 verbose audit error     'content-type': [ 'text/plain' ],
+171 verbose audit error     'content-length': [ '271' ],
+171 verbose audit error     connection: [ 'keep-alive' ],
+171 verbose audit error     'npm-notice': [
+171 verbose audit error       'Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/'
+171 verbose audit error     ],
+171 verbose audit error     vary: [ 'Accept-Encoding' ],
+171 verbose audit error     server: [ 'cloudflare' ],
+171 verbose audit error     'cf-ray': [ '87108ff6fb73bb9b-FRA' ],
+171 verbose audit error     'x-fetch-attempts': [ '1' ]
+171 verbose audit error   },
+171 verbose audit error   statusCode: 426,
+171 verbose audit error   code: 'E426',
+171 verbose audit error   method: 'POST',
+171 verbose audit error   uri: 'http://registry.npmjs.org/-/npm/v1/security/audits/quick',
+171 verbose audit error   body: <Buffer 42 65 67 69 6e 6e 69 6e 67 20 4f 63 74 6f 62 65 72 20 34 2c 20 32 30 32 31 2c 20 61 6c 6c 20 63 6f 6e 6e 65 63 74 69 6f 6e 73 20 74 6f 20 6e 70 6d 20 ... 221 more bytes>,
+171 verbose audit error   pkgid: undefined
+171 verbose audit error }
+172 silly audit error Beginning October 4, 2021, all connections to npm websites and the npm registry - including for package installation - must use HTTPS and TLS 1.2 or higher.
+172 silly audit error
+172 silly audit error For more information see this blog post: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+173 timing auditReport:getReport Completed in 827ms
+174 silly audit report null
+175 timing reify:audit Completed in 827ms
+176 timing reify Completed in 960ms
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 timing command:install Completed in 971ms
+215 verbose exit 0
+216 timing npm Completed in 1356ms
+217 info ok

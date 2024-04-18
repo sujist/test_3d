@@ -1,0 +1,2 @@
+
+562a3527bd2544acca985d3ca7a86beae12a6f20	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/postcss","integrity":null,"time":1712560258225,"size":"0","metadata":{"time":1712560258225,"url":"http://registry.npmjs.org/postcss","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 08 Apr 2024 07:10:58 GMT","location":"https://registry.npmjs.org/postcss","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

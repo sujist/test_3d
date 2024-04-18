@@ -1,0 +1,2 @@
+
+e2f2c764140b91640cf8f9f17468cc13a0f4bd68	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/lightningcss","integrity":null,"time":1712560255621,"size":"0","metadata":{"time":1712560255621,"url":"http://registry.npmjs.org/lightningcss","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 08 Apr 2024 07:10:55 GMT","location":"https://registry.npmjs.org/lightningcss","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

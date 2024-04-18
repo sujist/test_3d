@@ -1,0 +1,39 @@
+import * as THREE from 'three';
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
+
+const geometry = new THREE.BoxGeometry(1, 1, 1);
+const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+camera.position.z = 5;
+
+let mouseX = 0;
+let mouseY = 0;
+
+document.addEventListener('mousemove', event => {
+    // Calculate the change in mouse position
+    const deltaX = event.clientX - mouseX;
+    const deltaY = event.clientY - mouseY;
+
+    // Update mouse position
+    mouseX = event.clientX;
+    mouseY = event.clientY;
+
+    // Rotate the cube based on mouse movement
+    cube.rotation.x += deltaY * 0.01;
+    cube.rotation.y += deltaX * 0.01;
+});
+
+function animate() {
+    requestAnimationFrame(animate);
+    renderer.render(scene, camera);
+}
+
+animate();

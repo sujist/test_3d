@@ -1,0 +1,2 @@
+
+908d0dee78fe374a8093d388182eef7e8605593e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/terser","integrity":null,"time":1712560258855,"size":"0","metadata":{"time":1712560258855,"url":"http://registry.npmjs.org/terser","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 08 Apr 2024 07:10:58 GMT","location":"https://registry.npmjs.org/terser","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
